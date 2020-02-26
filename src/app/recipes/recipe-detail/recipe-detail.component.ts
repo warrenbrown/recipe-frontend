@@ -8,7 +8,7 @@ import { RecipeService } from 'src/app/recipe.service';
   styleUrls: ['./recipe-detail.component.scss']
 })
 export class RecipeDetailComponent implements OnInit {
-recipe = {}
+recipe = <any>{}
   constructor(
     private route: ActivatedRoute,
     private recipeService: RecipeService,
